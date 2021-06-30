@@ -1,0 +1,16 @@
+2021-06-15T20:08:58+00:00 CRITICAL Cannot redeclare vw_mats_scripts() (previously declared in C:\OpenServer\domains\vw-mats.ru\wp-content\plugins\anti-func\anti-func.php:14) в C:\OpenServer\domains\vw-mats.ru\wp-content\themes\mats-vw\functions.php на строке 140
+
+2021-06-15T20:09:03+00:00 CRITICAL Cannot redeclare vw_mats_scripts() (previously declared in C:\OpenServer\domains\vw-mats.ru\wp-content\plugins\anti-func\anti-func.php:14) в C:\OpenServer\domains\vw-mats.ru\wp-content\themes\mats-vw\functions.php на строке 140
+
+2021-06-15T20:44:16+00:00 CRITICAL syntax error, unexpected '-', expecting '(' в C:\OpenServer\domains\vw-mats.ru\wp-content\themes\mats-vw\functions.php на строке 140
+
+2021-06-15T20:45:23+00:00 CRITICAL syntax error, unexpected '-', expecting '(' в C:\OpenServer\domains\vw-mats.ru\wp-content\themes\mats-vw\functions.php на строке 140
+
+2021-06-15T20:46:56+00:00 CRITICAL Cannot redeclare filter_wp_menu_args() (previously declared in C:\OpenServer\domains\vw-mats.ru\wp-content\plugins\anti-func\anti-func.php:27) в C:\OpenServer\domains\vw-mats.ru\wp-content\themes\mats-vw\functions.php на строке 228
+
+2021-06-15T20:47:08+00:00 CRITICAL Cannot redeclare filter_wp_menu_args() (previously declared in C:\OpenServer\domains\vw-mats.ru\wp-content\plugins\anti-func\anti-func.php:27) в C:\OpenServer\domains\vw-mats.ru\wp-content\themes\mats-vw\functions.php на строке 228
+
+2021-06-15T20:47:50+00:00 CRITICAL Cannot redeclare filter_wp_menu_args() (previously declared in C:\OpenServer\domains\vw-mats.ru\wp-content\plugins\anti-func\anti-func.php:27) в C:\OpenServer\domains\vw-mats.ru\wp-content\themes\mats-vw\functions.php на строке 228
+
+2021-06-15T21:00:50+00:00 CRITICAL syntax error, unexpected '<', expecting end of file в C:\OpenServer\domains\vw-mats.ru\wp-content\themes\mats-vw\index.php на строке 18
+

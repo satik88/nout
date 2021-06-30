@@ -1,0 +1,48 @@
+2021-06-17T15:03:50+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function woocommerce_breadcrumb(), 0 passed in C:\OpenServer\domains\vw-mats.ru\wp-includes\class-wp-hook.php on line 290 and exactly 1 expected in C:\OpenServer\domains\vw-mats.ru\wp-content\plugins\anti-func\anti-func.php:167
+Stack trace:
+#0 C:\OpenServer\domains\vw-mats.ru\wp-includes\class-wp-hook.php(290): woocommerce_breadcrumb()
+#1 C:\OpenServer\domains\vw-mats.ru\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters()
+#2 C:\OpenServer\domains\vw-mats.ru\wp-includes\plugin.php(484): WP_Hook->do_action()
+#3 C:\OpenServer\domains\vw-mats.ru\wp-content\themes\mats-vw\woocommerce\archive-product.php(29): do_action()
+#4 C:\OpenServer\domains\vw-mats.ru\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\vw-mats.ru\wp-content\themes\mats-vw\woocommerce\taxonomy-product-cat.php(22): wc_get_template()
+#6 C:\OpenServer\domains\vw-mats.ru\wp-includes\template-loader.php(106): include('C в C:\OpenServer\domains\vw-mats.ru\wp-content\plugins\anti-func\anti-func.php на строке 167
+
+2021-06-17T15:04:55+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function woocommerce_breadcrumb(), 0 passed in C:\OpenServer\domains\vw-mats.ru\wp-includes\class-wp-hook.php on line 290 and exactly 1 expected in C:\OpenServer\domains\vw-mats.ru\wp-content\plugins\anti-func\anti-func.php:167
+Stack trace:
+#0 C:\OpenServer\domains\vw-mats.ru\wp-includes\class-wp-hook.php(290): woocommerce_breadcrumb()
+#1 C:\OpenServer\domains\vw-mats.ru\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters()
+#2 C:\OpenServer\domains\vw-mats.ru\wp-includes\plugin.php(484): WP_Hook->do_action()
+#3 C:\OpenServer\domains\vw-mats.ru\wp-content\themes\mats-vw\woocommerce\archive-product.php(29): do_action()
+#4 C:\OpenServer\domains\vw-mats.ru\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\vw-mats.ru\wp-content\themes\mats-vw\woocommerce\taxonomy-product-cat.php(22): wc_get_template()
+#6 C:\OpenServer\domains\vw-mats.ru\wp-includes\template-loader.php(106): include('C в C:\OpenServer\domains\vw-mats.ru\wp-content\plugins\anti-func\anti-func.php на строке 167
+
+2021-06-17T15:05:16+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function woocommerce_breadcrumb(), 0 passed in C:\OpenServer\domains\vw-mats.ru\wp-includes\class-wp-hook.php on line 290 and exactly 1 expected in C:\OpenServer\domains\vw-mats.ru\wp-content\plugins\anti-func\anti-func.php:167
+Stack trace:
+#0 C:\OpenServer\domains\vw-mats.ru\wp-includes\class-wp-hook.php(290): woocommerce_breadcrumb()
+#1 C:\OpenServer\domains\vw-mats.ru\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters()
+#2 C:\OpenServer\domains\vw-mats.ru\wp-includes\plugin.php(484): WP_Hook->do_action()
+#3 C:\OpenServer\domains\vw-mats.ru\wp-content\themes\mats-vw\woocommerce\archive-product.php(29): do_action()
+#4 C:\OpenServer\domains\vw-mats.ru\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\vw-mats.ru\wp-content\themes\mats-vw\woocommerce\taxonomy-product-cat.php(22): wc_get_template()
+#6 C:\OpenServer\domains\vw-mats.ru\wp-includes\template-loader.php(106): include('C в C:\OpenServer\domains\vw-mats.ru\wp-content\plugins\anti-func\anti-func.php на строке 167
+
+2021-06-17T15:05:20+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function woocommerce_breadcrumb(), 0 passed in C:\OpenServer\domains\vw-mats.ru\wp-includes\class-wp-hook.php on line 290 and exactly 1 expected in C:\OpenServer\domains\vw-mats.ru\wp-content\plugins\anti-func\anti-func.php:167
+Stack trace:
+#0 C:\OpenServer\domains\vw-mats.ru\wp-includes\class-wp-hook.php(290): woocommerce_breadcrumb()
+#1 C:\OpenServer\domains\vw-mats.ru\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters()
+#2 C:\OpenServer\domains\vw-mats.ru\wp-includes\plugin.php(484): WP_Hook->do_action()
+#3 C:\OpenServer\domains\vw-mats.ru\wp-content\themes\mats-vw\woocommerce\archive-product.php(29): do_action()
+#4 C:\OpenServer\domains\vw-mats.ru\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\vw-mats.ru\wp-content\themes\mats-vw\woocommerce\taxonomy-product-cat.php(22): wc_get_template()
+#6 C:\OpenServer\domains\vw-mats.ru\wp-includes\template-loader.php(106): include('C в C:\OpenServer\domains\vw-mats.ru\wp-content\plugins\anti-func\anti-func.php на строке 167
+
+2021-06-17T23:04:03+00:00 CRITICAL Cannot redeclare wc_product_cat_class() (previously declared in C:\OpenServer\domains\vw-mats.ru\wp-content\plugins\anti-func\anti-func.php:305) в C:\OpenServer\domains\vw-mats.ru\wp-content\plugins\woocommerce\includes\wc-template-functions.php на строке 373
+
+2021-06-17T23:04:50+00:00 CRITICAL Cannot redeclare wc_product_cat_class() (previously declared in C:\OpenServer\domains\vw-mats.ru\wp-content\plugins\anti-func\anti-func.php:305) в C:\OpenServer\domains\vw-mats.ru\wp-content\plugins\woocommerce\includes\wc-template-functions.php на строке 373
+
+2021-06-17T23:08:34+00:00 CRITICAL Cannot redeclare wc_get_product_cat_class() (previously declared in C:\OpenServer\domains\vw-mats.ru\wp-content\plugins\anti-func\anti-func.php:306) в C:\OpenServer\domains\vw-mats.ru\wp-content\plugins\woocommerce\includes\wc-template-functions.php на строке 485
+
+2021-06-17T23:39:34+00:00 CRITICAL Cannot redeclare wc_get_product_cat_class() (previously declared in C:\OpenServer\domains\vw-mats.ru\wp-content\plugins\anti-func\anti-func.php:306) в C:\OpenServer\domains\vw-mats.ru\wp-content\plugins\woocommerce\includes\wc-template-functions.php на строке 485
+

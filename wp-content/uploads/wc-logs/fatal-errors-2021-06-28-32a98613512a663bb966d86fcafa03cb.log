@@ -1,0 +1,70 @@
+2021-06-28T21:13:54+00:00 CRITICAL Uncaught Error: Call to a member function exists() on null in C:\OpenServer\domains\nout\wp-includes\user.php:1570
+Stack trace:
+#0 C:\OpenServer\domains\nout\wp-includes\pluggable.php(2611): clean_user_cache(NULL)
+#1 C:\OpenServer\domains\nout\wp-content\plugins\anti-func\anti-func.php(345): wp_set_password('my-new-password', NULL)
+#2 C:\OpenServer\domains\nout\wp-includes\class-wp-hook.php(292): my_password_recovery('')
+#3 C:\OpenServer\domains\nout\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#4 C:\OpenServer\domains\nout\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 C:\OpenServer\domains\nout\wp-settings.php(560): do_action('init')
+#6 C:\OpenServer\domains\nout\wp-config.php(89): require_once('C:\\OpenServer\\d...')
+#7 C:\OpenServer\domains\nout\wp-load.php(37): require_once('C:\\OpenServer\\d...')
+#8 C:\OpenServer\domains\nout\wp-login.php(12): require('C:\\OpenServer\\d...')
+#9 {main}
+  thrown в C:\OpenServer\domains\nout\wp-includes\user.php на строке 1570
+
+2021-06-28T21:14:02+00:00 CRITICAL Uncaught Error: Call to a member function exists() on null in C:\OpenServer\domains\nout\wp-includes\user.php:1570
+Stack trace:
+#0 C:\OpenServer\domains\nout\wp-includes\pluggable.php(2611): clean_user_cache(NULL)
+#1 C:\OpenServer\domains\nout\wp-content\plugins\anti-func\anti-func.php(345): wp_set_password('my-new-password', NULL)
+#2 C:\OpenServer\domains\nout\wp-includes\class-wp-hook.php(292): my_password_recovery('')
+#3 C:\OpenServer\domains\nout\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#4 C:\OpenServer\domains\nout\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 C:\OpenServer\domains\nout\wp-settings.php(560): do_action('init')
+#6 C:\OpenServer\domains\nout\wp-config.php(89): require_once('C:\\OpenServer\\d...')
+#7 C:\OpenServer\domains\nout\wp-load.php(37): require_once('C:\\OpenServer\\d...')
+#8 C:\OpenServer\domains\nout\wp-login.php(12): require('C:\\OpenServer\\d...')
+#9 {main}
+  thrown в C:\OpenServer\domains\nout\wp-includes\user.php на строке 1570
+
+2021-06-28T21:15:15+00:00 CRITICAL Uncaught Error: Call to a member function exists() on null in C:\OpenServer\domains\nout\wp-includes\user.php:1570
+Stack trace:
+#0 C:\OpenServer\domains\nout\wp-includes\pluggable.php(2611): clean_user_cache(NULL)
+#1 C:\OpenServer\domains\nout\wp-content\plugins\anti-func\anti-func.php(345): wp_set_password('my-new-password', NULL)
+#2 C:\OpenServer\domains\nout\wp-includes\class-wp-hook.php(292): my_password_recovery('')
+#3 C:\OpenServer\domains\nout\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#4 C:\OpenServer\domains\nout\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 C:\OpenServer\domains\nout\wp-settings.php(560): do_action('init')
+#6 C:\OpenServer\domains\nout\wp-config.php(89): require_once('C:\\OpenServer\\d...')
+#7 C:\OpenServer\domains\nout\wp-load.php(37): require_once('C:\\OpenServer\\d...')
+#8 C:\OpenServer\domains\nout\wp-login.php(12): require('C:\\OpenServer\\d...')
+#9 {main}
+  thrown в C:\OpenServer\domains\nout\wp-includes\user.php на строке 1570
+
+2021-06-28T21:19:32+00:00 CRITICAL Uncaught Error: Call to a member function exists() on null in C:\OpenServer\domains\nout\wp-includes\user.php:1570
+Stack trace:
+#0 C:\OpenServer\domains\nout\wp-includes\pluggable.php(2611): clean_user_cache(NULL)
+#1 C:\OpenServer\domains\nout\wp-content\plugins\anti-func\anti-func.php(345): wp_set_password('my-new-password', NULL)
+#2 C:\OpenServer\domains\nout\wp-includes\class-wp-hook.php(292): my_password_recovery('')
+#3 C:\OpenServer\domains\nout\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#4 C:\OpenServer\domains\nout\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 C:\OpenServer\domains\nout\wp-settings.php(560): do_action('init')
+#6 C:\OpenServer\domains\nout\wp-config.php(89): require_once('C:\\OpenServer\\d...')
+#7 C:\OpenServer\domains\nout\wp-load.php(37): require_once('C:\\OpenServer\\d...')
+#8 C:\OpenServer\domains\nout\wp-login.php(12): require('C:\\OpenServer\\d...')
+#9 {main}
+  thrown в C:\OpenServer\domains\nout\wp-includes\user.php на строке 1570
+
+2021-06-28T21:19:39+00:00 CRITICAL Uncaught Error: Call to a member function exists() on null in C:\OpenServer\domains\nout\wp-includes\user.php:1570
+Stack trace:
+#0 C:\OpenServer\domains\nout\wp-includes\pluggable.php(2611): clean_user_cache(NULL)
+#1 C:\OpenServer\domains\nout\wp-content\plugins\anti-func\anti-func.php(345): wp_set_password('my-new-password', NULL)
+#2 C:\OpenServer\domains\nout\wp-includes\class-wp-hook.php(292): my_password_recovery('')
+#3 C:\OpenServer\domains\nout\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#4 C:\OpenServer\domains\nout\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 C:\OpenServer\domains\nout\wp-settings.php(560): do_action('init')
+#6 C:\OpenServer\domains\nout\wp-config.php(89): require_once('C:\\OpenServer\\d...')
+#7 C:\OpenServer\domains\nout\wp-load.php(37): require_once('C:\\OpenServer\\d...')
+#8 C:\OpenServer\domains\nout\wp-login.php(12): require('C:\\OpenServer\\d...')
+#9 {main}
+  thrown в C:\OpenServer\domains\nout\wp-includes\user.php на строке 1570
+
