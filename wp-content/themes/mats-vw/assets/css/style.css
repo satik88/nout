@@ -1089,7 +1089,16 @@ button.catalog__filter-btnline{
   display: flex;
   justify-content: space-between;
 }
-
+.product-card__img-box-my {
+  width: 386px;
+  height: 373px;
+  padding-top: 0px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  border-radius: 5px;
+  border: 1px solid #1C62CD;
+}
 
 
 .product-card__price-old {
