@@ -1099,6 +1099,22 @@ button.catalog__filter-btnline{
   border-radius: 5px;
   border: 1px solid #1C62CD;
 }
+.product-card__btn button {
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 16px 53px;
+  border: none;
+  background: var(--main-blue);
+  color: #fff;
+  cursor: pointer;
+}
+.product-card__btn--mobile{
+  display: none;
+}
+
 
 
 .product-card__price-old {

@@ -25,7 +25,10 @@ if ( post_password_required() ) {
 }?>
 
 <div id="product-<?php the_ID(); ?>" class="product-card__inner">
-	<?php do_action( 'woocommerce_before_single_product_summary' );?>
+    <div class="product-card__img-box-my">	
+        <?php do_action( 'woocommerce_before_single_product_summary' );?>
+		
+    </div>
 	<div class="summary entry-summary">
 		<?php do_action( 'woocommerce_single_product_summary' );?>
 	</div>

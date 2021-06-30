@@ -292,16 +292,6 @@ function action_function_zakaz(){
 
                                  // СТРАНИЦА КАРТОЧКИ ТОВАРА(ЛЕВАЯ КОЛОНКА)
 
-add_action( 'woocommerce_before_single_product_summary', 'woocommerce_my44', 20 );
-function woocommerce_my44() {
-	echo '5555';
-	wc_get_template( 'single-product/product-image.php' );
-	echo '4444';
-}
-
-
-
-
 
 
 // // ДЛЯ ЛОКАЛЬНОГО СЕРВЕРА
@@ -319,12 +309,14 @@ function my_remove_product_result_count()
     remove_action('woocommerce_before_shop_loop', 'woocommerce_result_count', 20);
     remove_action('woocommerce_after_shop_loop', 'woocommerce_result_count', 20);
 	remove_action( 'woocommerce_before_single_product', 'woocommerce_output_all_notices', 10 );	
-	remove_action( 'woocommerce_before_single_product_summary', 'woocommerce_show_product_images', 20 );
 	remove_action( 'woocommerce_product_thumbnails', 'woocommerce_show_product_thumbnails', 20 );
 	//Отключаем похожие продукты
 	remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_related_products', 20 );
 	//Отключаем табы
     remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_product_data_tabs', 10 );
+	//Отключаем флеш с картинки
+	remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_show_product_sale_flash', 20 );
+	 
 }
 //хук хлебных крошек
 /** @hooked woocommerce_breadcrumb - 20 **/
