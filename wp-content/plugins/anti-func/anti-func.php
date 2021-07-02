@@ -326,6 +326,8 @@ function my_remove_product_result_count()
 	remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_meta', 40 );
 	//Отключаем краткое описание с карточки товара
 	remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_excerpt', 20 );
+	//Отключаем краткое описание с карточки товара
+	remove_action( 'woocommerce_single_variation', 'woocommerce_single_variation', 10 );
 }
 //хук хлебных крошек
 /** @hooked woocommerce_breadcrumb - 20 **/
@@ -351,4 +353,9 @@ function breadcrumb2() {
 	echo '</ul>
           </div>
           </div>';
+}
+//Выводим описание выбраных вариаций на карточки товара
+add_action( 'woocommerce_single_variation22', 'woocommerce_single_variation22', 10 );
+function woocommerce_single_variation22() {
+	echo '<div class="woocommerce-variation single_variation"></div>';
 }
