@@ -1114,11 +1114,7 @@ button.catalog__filter-btnline{
 .product-card__btn--mobile{
   display: none;
 }
-.product-card__info-centr{
-  display: flex;
-  justify-content: space-between;
-  width: 780px;
-}
+
 
 
 
@@ -1596,4 +1592,29 @@ button.catalog__filter-btnline{
   text-align: center;
   position: relative;
   margin-bottom: 21px;
+}
+.tc-styled-variations{
+  width: 200px;
+  border: 1px solid #dc3232;
+}
+.single_variation_wrap{
+  width: 279px;
+  height: 395px;
+  padding-top: 0px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 5px;
+  border: 1px solid #1C62CD;
+  background-color: rgba(240, 240, 244, 1);;
+}
+.product-card__info-centr{
+  display: flex;
+  justify-content: space-between;
+  width: 780px;
+  border: 1px solid #1C62CD;
+}
+.variations_form{
+  border: 1px solid #050505;
+  display: flex;
+  justify-content: space-between;
 }
