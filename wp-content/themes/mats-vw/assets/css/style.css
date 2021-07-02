@@ -1117,6 +1117,7 @@ button.catalog__filter-btnline{
 .product-card__info-centr{
   display: flex;
   justify-content: space-between;
+  width: 780px;
 }
 
 
