@@ -44,13 +44,15 @@ defined( 'ABSPATH' ) || exit;
     		<span class="price amount options">{{{ data.formatted_unit_price }}}</span>
     	</dd><?php do_action( 'wc_epo_template_after_unit_price' ); ?>
     	<# } #>
-    	<# if (data.show_options_total==true){ #><?php do_action( 'wc_epo_template_before_option_total' ); ?>
-    	<dt class="tm-options-totals">{{{ data.options_total }}}</dt>
+    	
+        <# if (data.show_options_total==true){ #><?php do_action( 'wc_epo_template_before_option_total' ); ?>
+    	<!-- <dt class="tm-options-totals">2{{{ data.options_total }}}</dt>
     	<dd class="tm-options-totals">
-    		<span class="price amount options">{{{ data.formatted_options_total }}}</span>
-    	</dd><?php do_action( 'wc_epo_template_after_option_total' ); ?>
+    		<span class="price amount options">1{{{ data.formatted_options_total }}}</span>
+    	</dd><?php do_action( 'wc_epo_template_after_option_total' ); ?> -->
     	<# } #>
-    	<# if (data.show_fees_total==true){ #><?php do_action( 'wc_epo_template_before_fee_total' ); ?>
+    	
+        <# if (data.show_fees_total==true){ #><?php do_action( 'wc_epo_template_before_fee_total' ); ?>
     	<dt class="tm-fee-totals">{{{ data.fees_total }}}</dt>
     	<dd class="tm-fee-totals">
     		<span class="price amount fees">{{{ data.formatted_fees_total }}}</span>
@@ -63,12 +65,15 @@ defined( 'ABSPATH' ) || exit;
     	</dd><?php do_action( 'wc_epo_template_after_extra_fee' ); ?>
     	<# } #>
     	<# if (data.show_final_total==true){ #><?php do_action( 'wc_epo_template_before_final_total' ); ?>
-    	<dt class="tm-final-totals">{{{ data.final_total }}}</dt>
+    	
+        <!-- <dt class="tm-final-totals">{{{ data.final_total }}}</dt> -->
     	<dd class="tm-final-totals">
     		<span class="price amount final">{{{ data.formatted_final_total }}}</span>
     	</dd><?php do_action( 'wc_epo_template_after_final_total' ); ?>
     	<# } #>
         <?php do_action('wc_epo_after_js_final_totals'); ?>
+
+        
     </dl>
 </script>
 <script class="tm-hidden" type="text/template" id="tmpl-tc-price">
