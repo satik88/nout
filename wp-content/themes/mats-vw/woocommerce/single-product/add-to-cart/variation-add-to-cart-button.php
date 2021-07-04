@@ -27,8 +27,12 @@ global $product;
 	do_action( 'woocommerce_after_add_to_cart_quantity' );
 	?>
 
-	<button type="submit" class="single_add_to_cart_button button alt"><?php echo esc_html( $product->single_add_to_cart_text() ); ?></button>
-
+	<button type="submit" class="button-card-my">
+		<?php echo esc_html( $product->single_add_to_cart_text() ); ?>
+	</button>
+	<button type="submit" class="button-card-my">
+		КУПИТЬ В 1 КЛИК
+	</button>
 	<?php do_action( 'woocommerce_after_add_to_cart_button' ); ?>
 
 	<input type="hidden" name="add-to-cart" value="<?php echo absint( $product->get_id() ); ?>" />

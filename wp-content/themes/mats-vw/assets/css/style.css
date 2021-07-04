@@ -1594,18 +1594,18 @@ button.catalog__filter-btnline{
   margin-bottom: 21px;
 }
 .tc-styled-variations{
-  width: 200px;
-  border: 1px solid #dc3232;
+  width: 497px;
+  
 }
 .single_variation_wrap{
   width: 279px;
-  height: 395px;
+  height: 445px;
   padding-top: 0px;
   text-align: center;
   font-family: 'Roboto', sans-serif;
   border-radius: 5px;
   border: 1px solid #1C62CD;
-  background-color: rgba(240, 240, 244, 1);;
+  background-color: rgba(240, 240, 244, 1);
 }
 .product-card__info-centr{
   display: flex;
@@ -1661,3 +1661,58 @@ button.catalog__filter-btnline{
     border: 1px solid #ee0b0b;
     height: 150px;
   }
+  .button-card-my {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #FF5000;
+    color: rgba(28, 98, 205, 1);
+    border: 1px solid rgba(28, 98, 205, 1);
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all 0.4s ease;
+    width: 235px;
+    height: 40px;
+    margin-top: 24px;
+  }
+  .button-card-my:hover{
+    text-decoration: none; 
+    background-color: rgba(28, 98, 205, 1);
+    color: #ffeded;
+    border-color: rgba(28, 98, 205, 1);
+  }
+  .iput__card-kol{
+    color: #666;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 3px;
+    width: 44px;
+}
+.button-card-my-one {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  background-color: #ffffff;
+  color: rgba(28, 98, 205, 1);
+  border: 1px solid rgba(28, 98, 205, 1);
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 8px 0px 0px 0px;
+  transition: all 0.4s ease;
+  width: 235px;
+  height: 40px;
+  margin-top: 15px;
+}
+.button-card-my-one:hover{
+  text-decoration: none; 
+  background-color: #1C62CD;
+  color: #ffeded;
+  border-color: #1C62CD;
+}
