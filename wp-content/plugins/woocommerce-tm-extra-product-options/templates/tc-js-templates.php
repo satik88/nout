@@ -67,8 +67,8 @@ defined( 'ABSPATH' ) || exit;
     	<# if (data.show_final_total==true){ #><?php do_action( 'wc_epo_template_before_final_total' ); ?>
     	
         <!-- <dt class="tm-final-totals">{{{ data.final_total }}}</dt> -->
-    	<dd class="tm-final-totals">
-    		<span class="price amount final">{{{ data.formatted_final_total }}}</span>
+    	<dd class="tm-final-totals2">
+    		<span class="">{{{ data.formatted_final_total }}}</span>
     	</dd><?php do_action( 'wc_epo_template_after_final_total' ); ?>
     	<# } #>
         <?php do_action('wc_epo_after_js_final_totals'); ?>

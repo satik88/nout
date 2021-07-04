@@ -1,0 +1,20 @@
+2021-07-04T07:56:13+00:00 CRITICAL Uncaught Error: Call to undefined function tm_set_price() in C:\OpenServer\domains\nout\wp-content\themes\mats-vw\woocommerce\single-product\add-to-cart\variation-add-to-cart-button.php:38
+Stack trace:
+#0 C:\OpenServer\domains\nout\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\OpenServer\domains\nout\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2984): wc_get_template('single-product/...')
+#2 C:\OpenServer\domains\nout\wp-includes\class-wp-hook.php(292): woocommerce_single_variation_add_to_cart_button('')
+#3 C:\OpenServer\domains\nout\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 C:\OpenServer\domains\nout\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 C:\OpenServer\domains\nout\wp-content\themes\mats-vw\woocommerce\single-product\add-to-cart\variable.php(70): do_action('woocommerce_sin...')
+#6 C:\OpenServer\domains\nout\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\OpenServer\\d. в C:\OpenServer\domains\nout\wp-content\themes\mats-vw\woocommerce\single-product\add-to-cart\variation-add-to-cart-button.php на строке 38
+
+2021-07-04T07:56:19+00:00 CRITICAL Uncaught Error: Call to undefined function tm_set_price() in C:\OpenServer\domains\nout\wp-content\themes\mats-vw\woocommerce\single-product\add-to-cart\variation-add-to-cart-button.php:38
+Stack trace:
+#0 C:\OpenServer\domains\nout\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\OpenServer\domains\nout\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2984): wc_get_template('single-product/...')
+#2 C:\OpenServer\domains\nout\wp-includes\class-wp-hook.php(292): woocommerce_single_variation_add_to_cart_button('')
+#3 C:\OpenServer\domains\nout\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 C:\OpenServer\domains\nout\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 C:\OpenServer\domains\nout\wp-content\themes\mats-vw\woocommerce\single-product\add-to-cart\variable.php(70): do_action('woocommerce_sin...')
+#6 C:\OpenServer\domains\nout\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\OpenServer\\d. в C:\OpenServer\domains\nout\wp-content\themes\mats-vw\woocommerce\single-product\add-to-cart\variation-add-to-cart-button.php на строке 38
+
