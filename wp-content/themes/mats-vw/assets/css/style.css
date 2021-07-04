@@ -1639,3 +1639,11 @@ button.catalog__filter-btnline{
 .tm-custom-price-totals{
 
 }
+.product-card__code-comp{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  margin-top: 7px;
+  color: rgba(28, 98, 205, 1);
+  }

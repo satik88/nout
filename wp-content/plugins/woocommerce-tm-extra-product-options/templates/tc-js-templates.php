@@ -72,6 +72,9 @@ defined( 'ABSPATH' ) || exit;
     	</dd><?php do_action( 'wc_epo_template_after_final_total' ); ?>
     	<# } #>
         <?php do_action('wc_epo_after_js_final_totals'); ?>
+        <div class="product-card__code-comp">
+                комплектация:
+              </div>
 
         
     </dl>
