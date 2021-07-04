@@ -313,7 +313,7 @@ function my_remove_product_result_count()
 	//Отключаем похожие продукты
 	remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_related_products', 20 );
 	//Отключаем табы
-    remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_product_data_tabs', 10 );
+    // remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_product_data_tabs', 10 );
 	//Отключаем флеш с картинки
 	remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_show_product_sale_flash', 20 );
 	//Отключаем тайтл с карточки товара

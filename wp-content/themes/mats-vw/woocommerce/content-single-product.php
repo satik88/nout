@@ -31,7 +31,10 @@ if ( post_password_required() ) {
 	<div class="product-card__info-centr">
 		<?php do_action( 'woocommerce_single_product_summary' );?>
 	</div>
+</div>
+<div class="tabs-wrapper">
 	<?php do_action( 'woocommerce_after_single_product_summary' );?>
 </div>
 <?php do_action( 'woocommerce_after_single_product' ); ?>
+
 
