@@ -2090,7 +2090,7 @@ html .tc-extra-product-options .tc-hidden.tc-cell,
 .tm-extra-product-options div.tm-epo-element-label,
 .tm-extra-product-options p.tm-epo-element-label,
 .tm-extra-product-options span.tm-epo-element-label {
-	font-weight: 700;
+	font-weight: 400;
 }
 
 .tm-extra-product-options .tm-epo-element-label.tm-section-label {
