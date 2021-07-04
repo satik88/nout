@@ -1611,10 +1611,9 @@ button.catalog__filter-btnline{
   display: flex;
   justify-content: space-between;
   width: 780px;
-  border: 1px solid #1C62CD;
+  
 }
 .variations_form{
-  border: 1px solid #050505;
   display: flex;
   justify-content: space-between;
 }
@@ -1625,7 +1624,6 @@ button.catalog__filter-btnline{
   line-height: 39px;
   text-align: center;
   color: rgba(28, 98, 205, 1);
-  border: 1px solid #05ad13;
   margin: 0px 0px 0px 0px;
 }
 .tm-epo-totals {
@@ -1647,7 +1645,7 @@ button.catalog__filter-btnline{
   text-align: center;
   margin-top: 7px;
   color: rgba(28, 98, 205, 1);
-  border: 1px solid #3c089c;
+  
   }
   .product-card__code-comp-text{
     font-family: 'Roboto', sans-serif;
@@ -1658,7 +1656,6 @@ button.catalog__filter-btnline{
     margin-top: 5px;
     color: rgba(0, 0, 0, 1);
     padding: 0px 0px 0px 27px;
-    border: 1px solid #ee0b0b;
     height: 150px;
   }
   .button-card-my {
@@ -1731,5 +1728,10 @@ button.catalog__filter-btnline{
   
 }
 .tm-hide-label{
-  border-radius: 10px;
+  border-radius: 40px;
+}
+.tm-extra-product-options .tc-row, .tc-row {
+  
+  margin: 0px -13px;
+  
 }
