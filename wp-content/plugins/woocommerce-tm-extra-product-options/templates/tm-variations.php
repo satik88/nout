@@ -556,10 +556,11 @@ if (
 				}
 
 			}
+            // Убираем кнопку reset options
+			// if ( sizeof( $attributes ) == $loop ) {
+			// 	echo '<a class="reset_variations tc-cell tcwidth-100" href="#reset">' . ( ( ! empty( THEMECOMPLETE_EPO()->tm_epo_reset_variation_text ) ) ? esc_html( THEMECOMPLETE_EPO()->tm_epo_reset_variation_text ) : esc_html__( '1Reset options', 'woocommerce-tm-extra-product-options' ) ) . '</a>';
 
-			if ( sizeof( $attributes ) == $loop ) {
-				echo '<a class="reset_variations tc-cell tcwidth-100" href="#reset">' . ( ( ! empty( THEMECOMPLETE_EPO()->tm_epo_reset_variation_text ) ) ? esc_html( THEMECOMPLETE_EPO()->tm_epo_reset_variation_text ) : esc_html__( 'Reset options', 'woocommerce-tm-extra-product-options' ) ) . '</a>';
-			}
+			// }
 		}
 	}
 
