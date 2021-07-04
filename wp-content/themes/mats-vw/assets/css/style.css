@@ -1640,10 +1640,24 @@ button.catalog__filter-btnline{
 
 }
 .product-card__code-comp{
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
   text-align: center;
   margin-top: 7px;
   color: rgba(28, 98, 205, 1);
+  border: 1px solid #3c089c;
+  }
+  .product-card__code-comp-text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 19px;
+    text-align: left;
+    margin-top: 5px;
+    color: rgba(0, 0, 0, 1);
+    padding: 0px 0px 0px 27px;
+    border: 1px solid #ee0b0b;
+    height: 150px;
   }
