@@ -360,7 +360,7 @@ function woocommerce_single_variation22() {
 	echo '<div class="woocommerce-variation single_variation"></div>';
 }
 add_filter( 'woocommerce_product_tabs', 'woo_remove_product_tabs', 98 );
- 
+//Отключаем стандартные табы Woocommerce 
 function woo_remove_product_tabs( $tabs ) {
  
     unset( $tabs['description'] );      	// Remove the description tab
